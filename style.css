@@ -1,0 +1,153 @@
+html {
+    box-sizing: border-box;
+    height: 50%;
+    width: 500px;
+    font-size: 62.5%;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .gh 
+  {
+      padding-top: 40%;
+  }
+  h1 {
+      padding-left: 45%;
+      color: darkcyan;
+    font-size: 2rem;
+  }
+  
+  h3 {
+      color: cadetblue;
+    font-size: 1.8rem;
+    width: 50px;
+    padding-left: 40%;
+    margin-right: 10%;
+  }
+  
+
+  body {
+    background: #0f0f0f;
+    color: #ffffff;
+    font-family: system-ui, sans-serif;
+  }
+  
+  .heading {
+    line-height: 2;
+    font-weight: 900;
+  }
+  
+  .section-container {
+    padding:0.5%;
+  }
+  .section-container .a {
+   color: #ffffff;
+      
+  }
+  
+  .schedule-container {
+    overflow:none;
+  }
+  
+  .schedule-stage__wrapper {
+    display: inline-block;
+  }
+  
+  .schedule-stage {
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    grid-gap: 0.3rem;
+    padding-bottom: 0.1rem;
+    padding-top: 0.5rem;
+    min-width: 50vw;
+  }
+  .schedule-stage ::after {
+    content: "";
+    width: var(--padding);
+  }
+  
+  .divider {
+    position: sticky;
+    left: 0;
+    border: none;
+  }
+  
+
+  
+  .schedule-stage__title {
+    position: sticky;
+    left: 0;
+    padding-top: 1.5rem;
+    padding-right: 1.3rem;
+    height: 40%;
+    padding-left: var(--padding);
+    background: linear-gradient(to right, #0f0f0f 30%, hsla(0, 0%, 0%, 0));
+  }
+  
+  .schedule-stage_guide-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 135px;
+    grid-gap: 0.5rem;
+  }
+  
+  .pd {
+    padding-bottom: 5%;
+  }
+  .guide-slot {
+    color: hsl(0, 0%, 50%);
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+  
+  .guide-slot_card {
+    background: hsl(0, 0%, 4%);
+    border: 0.5px solid var(--border);
+    border-radius: 0.8rem;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    cursor: pointer;
+  
+  }
+  .guide-slot_card :hover {
+    border-color: hsl(0, 0%, 70%);
+  }
+
+  h4 {
+    margin-right: 2rem;
+    font-size: 1.4rem;
+    color: #e7dcdc;
+    padding-bottom: 3px;
+  }
+
+  h5 {
+    margin-right: 2rem;
+    font-size: 1rem;
+    color: #888888;
+  }
+  h6 {
+    margin-right: 2rem;
+    font-size: 0.9rem;
+    color: #888888;
+  }
+  
+  .author-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 0.3rem;
+  }
+  
